@@ -28,6 +28,11 @@ html{
        .navbar-toggler {
         border: none;
       }
+      nav ul li a:hover{
+        box-shadow: 5px 5px 0 rgb(0,0,0,0.8) ;
+        border-radius: 20px;
+        transition: 0.3s;
+      }
       
       .logo-container img{
         height: 75px;
@@ -52,8 +57,11 @@ html{
       .carousel-inner{
         height: 70%;
       }
+      .img-mdt{
+        opacity:0.4;
+      }
       .img-eter{
-        opacity: 0.3;
+        opacity: 0.4;
       }
       .logo-eter{
         width: 96px;
