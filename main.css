@@ -66,6 +66,9 @@ html{
       .logo-eter{
         width: 96px;
       }
+      .radio-controls {
+        margin-top: 20px;
+    }
       /* ICONO DE WHATASPP FLOTANTE */
      
       @keyframes popup {

@@ -71,7 +71,79 @@
 </nav>
     </header>
     
+    <div class="container  mt-5 w-75">
+      <h4 class="p-2 text-bg-secondary text-center">En qué podemos ayudarte?</h4>
+      <form action="https://formsubmit.co/francogabrielalconchel@gmail.com" method="POST" id="formulario-contacto" class="formulario text-bg-dark p-4">
+          <div class="form-group row">
+              <div class="col-md-6 mt-4">
+                <div class="formulario__grupo" id="grupo__nombre">
+                  <label for="nombre" class="">Nombre:</label>
+                  <input type="text" class="form-control rounded-0" name="nombre" required>
+                  <i class="formulario__validacion-estado fas fa-times-circle"></i>
+              </div>
+              <p class="formulario__input-error">El nombre no puede contener numeros, letras y guion bajo.</p>
+            </div>
+              <div class="col-md-6 mt-4">
+                <div class="formulario__grupo" id="grupo__apellido">
+                  <label for="apellido" class="">Apellido:</label>
+                  <input type="text" class="form-control rounded-0" name="apellido" required>
+                  <i class="formulario__validacion-estado fas fa-times-circle"></i>
+                </div>
+              </div>
+              
+          </div>
+  
+          <div class="form-group row">
+              <div class="col-md-6 mt-4">
+                <div class="formulario__grupo" id="grupo__correo">
+                  <label for="correo" class="">Correo:</label>
+                  <input type="email" class="form-control rounded-0" name="correo" required>
+                  <i class="formulario__validacion-estado fas fa-times-circle"></i>
+              </div>
+            </div>
+              <div class="col-md-6 mt-4">
+                <div class="formulario__grupo" id="grupo__telefono">
+                  <label for="numero" class="">Telefono:</label>
+                  <input type="text" class="form-control rounded-0" name="telefono" placeholder="Ejemplo: (342)5557777" required>
+                  <i class="formulario__validacion-estado fas fa-times-circle"></i>
+                </div>
+            </div>
+          </div>
+  
+          <div class="form-group row">
+              <div class="col-md-6 mt-4">
+                <div class="formulario__grupo" id="grupo__ciudad">
+                  <label for="ciudad" class="">Ciudad:</label>
+                  <input type="text" class="form-control rounded-0" name="ciudad">
+                  <i class="formulario__validacion-estado fas fa-times-circle"></i>
+              </div>
+            </div>
+              <div class="col-md-6 mt-4">
+                <div class="formulario__grupo" id="grupo__provincia">
+                  <label for="provincia " class="">Provincia:</label>
+                  <input type="text" class="form-control rounded-0" name="provincia">
+                  <i class="formulario__validacion-estado fas fa-times-circle"></i>
+              </div>
+          </div>
+        </div>
+
+          <div class="form-group mt-4">
+            <div class="formulario__grupo" id="grupo__comentar">
+              <label for="comentar" class="">Comentar:</label>
+              <textarea type="text" name="comentar" class="form-control rounded-0"></textarea>
+            </div>
+          </div>
     
+          <br>
+  
+          <button type="submit" class="btn btn-primary rounded-0" id="enviar">Enviar</button>
+          <button type="submit" class="btn-back btn btn-primary rounded-0 bg-warning "><a class="p-1 text-decoration-none text-dark" href="index.html">Volver al inicio</a></button>
+      
+          <input type="hidden" name="_next" value="https://francog0711.github.io/ ">
+          <input type="hidden" name="_captcha" value="false">
+          <input type="hidden" name="_next" value="https://francog0711.github.io/Ancora/FormularioAncora.html">
+        </form><br>
+  </div>
         
         <!-- FOOTER  -->
 
@@ -135,5 +207,6 @@
 ></script>
 <script src="https://unpkg.com/scrollreveal"></script>
 <script type="text/javascript" src="src/main.js"></script>
+<script type="text/javascript" src="formulario.js"></script>
 </body>
 </html>
