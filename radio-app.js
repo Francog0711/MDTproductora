@@ -19,4 +19,4 @@ const radioUrl = "URL_DE_TU_RADIO";
       audio.pause();
       audio.currentTime = 0;
       radioStatus.textContent = "Fuera de servicio";
-  });
+  }); 
