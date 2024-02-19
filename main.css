@@ -5,11 +5,11 @@ html{
   }
     body{
       margin: 0;
-      background: #06142E!important;
+      background: #d5deef!important;
       }
 
       header{
-        background-color: #FFA586;
+        background-color: #395886;
 
 }
 
@@ -28,8 +28,11 @@ html{
        .navbar-toggler {
         border: none;
       }
+      nav ul li a{
+        color: #F0F3F4!important;
+      }
       nav ul li a:hover{
-        box-shadow: 5px 5px 0 rgb(0,0,0,0.8) ;
+        box-shadow: 5px 5px 0 rgba(255, 255, 255, 0.5) ;
         border-radius: 20px;
         transition: 0.3s;
       }
@@ -44,12 +47,12 @@ html{
       /*CARTELES EN MEDIO DE LAS IMAGENES*/
       .cartel-inicio {
         top: 22rem;
-        background-color: #142452;
+        background-color: #395886;
         color: #ffffff;
       }
       .cartel-eter {
         top: 22rem;
-        background-color: #BB5098;
+        background-color: #7A5197;
         color: #ffffff;
       }
       .cartel-tv{
@@ -58,7 +61,7 @@ html{
         color: #F0F3F4;
       } 
       .cartel-secciones{
-        color: #d8d8d8 !important;
+        color: #1d1d1d !important;
       }
       .carousel-inner{
         height: 70%;
@@ -68,22 +71,22 @@ html{
       }
 
       /*IMAGENES CON OPACIDAD*/
-      .img-mdt{
-        opacity:0.2;
+      /* .img-mdt{
+        opacity:0.7;
       }
       .img-eter{
-        opacity: 0.2;
+        opacity: 0.7;
       }
       .img-tv{
-        opacity: 0.2;
-      }
+        opacity: 0.7;
+      } */
 
       /*LOGOS DE TITULOS*/
       .logo-mdt{
-        width: 50px;
+        width: 36px;
       }
       .logo-eter{
-        width: 96px;
+        width: 64px;
       }
       .logo-tv{
         width: 64px;
@@ -102,7 +105,17 @@ html{
         background-color: #FFA586;
     }
     .radio-controls button:hover{
-      box-shadow: 0px 5px 0 rgb(0,0,0,0.5) ;
+      box-shadow: 3px 3px 0 rgb(0,0,0,0.5) ;
+    }
+
+    #playBtn:hover{
+      background-color: #1ed12d;
+    }
+    #pauseBtn:hover{
+      background-color: #575757;
+    }
+    #stopBtn:hover{
+      background-color: #bb2929;
     }
 
     /*formulario*/
@@ -169,7 +182,7 @@ form{
         color: white;
       }
       .ver-mas{
-        background-color: blueviolet;
+        background-color: #bb2929;
         border-radius: 10px;
       }
       .social-links {
@@ -184,32 +197,25 @@ form{
 
 .pie-pagina {
   margin-top: 120px;
-  background-color: #FFA586;
+  background-color: #395886;
 }
 
 .box1 .img-container a img{
   width: 250px;
   height: auto;
 }
-
-.box2 a{
-  text-decoration: none;
-  color:#000000;
-}
-
-.box2 a:hover{
-  color: #ffffff;
-  transform: scale(1.1);
+.box2{
+  color:#F0F3F4;
 }
 
 .redes a{
   text-decoration: none;
   text-align: center;
   transition: all .3s ease;
-  color: #000000;
+  color: #F0F3F4;
 }
 .redes a:hover{
-  color:rgb(216, 255, 242);
+  color:#1d1d1d;
 }
 
 #btn-v-inicio{
