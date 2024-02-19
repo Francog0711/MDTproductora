@@ -63,15 +63,19 @@ html{
       .carousel-inner{
         height: 70%;
       }
+      .h-contacto{
+        background-color: #0c7075;
+      }
+
       /*IMAGENES CON OPACIDAD*/
       .img-mdt{
-        opacity:0.5;
+        opacity:0.2;
       }
       .img-eter{
-        opacity: 0.5;
+        opacity: 0.2;
       }
       .img-tv{
-        opacity: 0.5;
+        opacity: 0.2;
       }
 
       /*LOGOS DE TITULOS*/
@@ -88,6 +92,7 @@ html{
         width: 50px;
       }
       /*RADIO*/
+      
       #radioStatus{
         font-size: 1rem;
         color: #e85d04;
@@ -99,6 +104,30 @@ html{
     .radio-controls button:hover{
       box-shadow: 0px 5px 0 rgb(0,0,0,0.5) ;
     }
+
+    /*formulario*/
+
+form{
+  background-color: #0c7075;
+}
+.formulario__grupo-correcto .formulario__validacion-estado {
+	color: #1ed12d;
+	opacity: 1;
+}
+
+.formulario__grupo-incorrecto .formulario__label {
+	color: #bb2929;
+}
+
+.formulario__grupo-incorrecto .formulario__validacion-estado {
+	color: #bb2929;
+	opacity: 1;
+}
+
+.formulario__grupo-incorrecto .formulario__input {
+	border: 3px solid #bb2929;
+}
+
       /* ICONO DE WHATASPP FLOTANTE */
      
       @keyframes popup {
