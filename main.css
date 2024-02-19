@@ -41,6 +41,7 @@ html{
       .logo-container img:hover{
         transform: scale(1.1);
       }
+      /*CARTELES EN MEDIO DE LAS IMAGENES*/
       .cartel-inicio {
         top: 22rem;
         background-color: #142452;
@@ -51,23 +52,53 @@ html{
         background-color: #BB5098;
         color: #ffffff;
       }
+      .cartel-tv{
+        top: 22rem;
+        background-color: #022B42;
+        color: #F0F3F4;
+        opacity: 1;
+      }
       .cartel-secciones{
         color: #d8d8d8 !important;
       }
       .carousel-inner{
         height: 70%;
       }
+      /*IMAGENES CON OPACIDAD*/
       .img-mdt{
-        opacity:0.4;
+        opacity:0.5;
       }
       .img-eter{
-        opacity: 0.4;
+        opacity: 0.5;
+      }
+      .img-tv{
+        opacity: 0.5;
+      }
+
+      /*LOGOS DE TITULOS*/
+      .logo-mdt{
+        width: 50px;
       }
       .logo-eter{
         width: 96px;
       }
+      .logo-tv{
+        width: 64px;
+      }
+      .logo-radio{
+        width: 50px;
+      }
+      /*RADIO*/
+      #radioStatus{
+        font-size: 1rem;
+        color: #e85d04;
+      }
       .radio-controls {
         margin-top: 20px;
+        background-color: #FFA586;
+    }
+    .radio-controls button:hover{
+      box-shadow: 0px 5px 0 rgb(0,0,0,0.5) ;
     }
       /* ICONO DE WHATASPP FLOTANTE */
      

@@ -14,6 +14,7 @@
       src="https://kit.fontawesome.com/304be95d7a.js"
       crossorigin="anonymous"
     ></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
 </head>
 <body>
     <!-- HEADER -->
@@ -63,12 +64,19 @@
     </header>
     
     <!-- RADIO APP  -->
-    <div class="container">
-      <h1 class="text-center mt-5">Radio App</h1>
-      <div class="radio-controls text-center">
-          <button id="playBtn" class="btn btn-primary"><i class="fas fa-play"></i> Play</button>
-          <button id="pauseBtn" class="btn btn-secondary"><i class="fas fa-pause"></i> Pause</button>
-          <button id="stopBtn" class="btn btn-danger"><i class="fas fa-stop"></i> Stop</button>
+    <div class="container text-bg-secondary w-50 rounded-3">
+      <h1 class="text-center mt-5 p-4">Radio App
+        <span>
+        <img src="img/radio_icon.png" alt="" class="logo-radio">
+      </span>
+      <span id="radioStatus">
+        Fuera de servicio
+      </span>
+    </h1>
+      <div class="radio-controls text-center rounded-3">
+          <button id="playBtn" class="btn btn fs-5 p-3 m-3"><i class="fa fa-play"></i> Play</button>
+          <button id="pauseBtn" class="btn btn fs-5 p-3 m-3"><i class="fa fa-pause"></i> Pausa</button>
+          <button id="stopBtn" class="btn btn fs-5 p-3 m-3"><i class="fa fa-stop"></i> Parar</button>
       </div>
   </div>
 
