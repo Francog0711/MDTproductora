@@ -44,7 +44,9 @@ html{
       .logo-container img:hover{
         transform: scale(1.1);
       }
+
       /*CARTELES EN MEDIO DE LAS IMAGENES*/
+      
       .cartel-inicio {
         top: 22rem;
         background-color: #395886;
@@ -72,7 +74,7 @@ html{
 
    /*GRID*/
    .card {
-    position: relative; /* Para que la posición absoluta de .card-overlay sea relativa a la tarjeta */
+    position: relative; 
 }
    .card-img-container {
     position: relative;
@@ -84,12 +86,12 @@ html{
   bottom: 0;
   left: 0;
   width: 100%;
-  background-color: rgba(0, 0, 0, 0.5); /* Color de fondo del overlay */
-  color: #fff; /* Color del texto */
+  background-color: rgba(0, 0, 0, 0.5); 
+  color: #fff; 
   padding: 20px;
   box-sizing: border-box;
-  opacity: 0; /* Inicialmente oculto */
-  transition: opacity 0.3s ease; /* Transición suave de la opacidad */
+  opacity: 0; 
+  transition: opacity 0.3s ease; 
 }
 
 .card-overlay h5,
@@ -102,7 +104,15 @@ html{
 }
 
 .card:hover .card-overlay {
-  opacity: 1; /* Mostrar overlay cuando se hace hover sobre la tarjeta */
+  opacity: 1; 
+}
+
+.icon-yt:hover{
+  color:#bb2929;
+}
+
+.icon-ig:hover{
+  color:blueviolet;
 }
 
       /*LOGOS DE TITULOS*/
