@@ -1,0 +1,168 @@
+/*formulario*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@800&display=swap');
+html{
+  font-family: 'Poppins', sans-serif;
+    padding: 0;
+    margin:0;
+}
+body{
+        background-image: url(img/contacto-1.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        /* backdrop-filter: blur(2px); */
+      }
+
+     header{
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            z-index: 1000; /* Asegura que el encabezado esté encima del resto del contenido */
+            background-color: rgba(0, 0, 0, 0.7);
+      
+}
+
+
+    .nav-vertical {
+        display: flex;
+        list-style: none;
+        margin: 0;
+        align-items: center;
+      } 
+    
+      .container-nav {
+       width: 100%;
+      }
+    
+       .navbar-toggler {
+        border: none;
+      }
+      header nav ul li a{
+        color: #F0F3F4!important;
+        opacity: none;
+      }
+      nav ul li a:hover{
+        box-shadow: 5px 5px 0 rgba(255, 255, 255, 0.5) ;
+        border-radius: 20px;
+        transition: 0.3s;
+      }
+      
+      .logo-container img{
+        height: 75px;
+      }
+      
+      .logo-container img:hover{
+        transform: scale(1.1);
+      }
+
+
+      .h-contacto{
+        background-color: #1d1d1d;
+        font-size: 4rem;
+        color: #d8d8d8;
+      }
+
+
+form{
+    background-color: transparent;
+  }
+  form label{
+    color: #F0F3F4;
+    background-color: #000000;
+    border-radius: 20px;
+    padding: 10px;
+    margin: 10px;
+  }
+  form p{
+    color: #F0F3F4;
+    background-color: #000000;
+    border-radius: 20px;
+    padding: 10px;
+    margin: 10px;
+  }
+  .formulario__grupo-correcto .formulario__validacion-estado {
+      color: #1ed12d;
+      opacity: 1;
+  }
+  
+  .formulario__grupo-incorrecto .formulario__label {
+      color: #bb2929;
+  }
+  
+  .formulario__grupo-incorrecto .formulario__validacion-estado {
+      color: #bb2929;
+      opacity: 1;
+  }
+  
+  .formulario__grupo-incorrecto .formulario__input {
+      border: 3px solid #bb2929;
+  }
+  
+        /* ICONO DE WHATASPP FLOTANTE */
+       
+        @keyframes popup {
+         0% {
+           width: 0;
+           height: 0;
+         }
+         50% {
+           width: 8rem;
+           height: 8rem;
+         }
+         100% {
+           width: 5rem;
+           height: 5rem;
+         }
+       }
+       
+       .wsp-btn a img{
+         display: flex;
+         height: 70px;
+         width: auto;
+         left: 95%;
+         top: 90%;
+         cursor: pointer;
+         z-index: 21;
+         animation: popup 0.3s ease-in-out;
+         transition: all .3s ease;
+       }
+       .wsp-btn a img:hover {
+         transform: scale(1.1);
+       }
+
+       /* FOOTER */
+
+.pie-pagina {
+    margin-top: 120px;
+    background-color: #395886;
+  }
+  
+  .box1 .img-container a img{
+    width: 250px;
+    height: auto;
+  }
+  .box2{
+    color:#F0F3F4;
+  }
+  
+  .redes a{
+    text-decoration: none;
+    text-align: center;
+    transition: all .3s ease;
+    color: #F0F3F4;
+  }
+  .redes a:hover{
+    color:#1d1d1d;
+  }
+  
+  #btn-v-inicio{
+    background-color: #1d1d1d;
+    color: #d8d8d8;
+    text-decoration: none;
+    border-radius: 10px ;
+  }
+  #btn-v-inicio:hover{
+    background-color: #4181ac;
+  }
+  
+  

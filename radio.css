@@ -1,0 +1,198 @@
+/* Fuentes */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@800&display=swap');
+
+/* Reset */
+html {
+    font-family: 'Poppins', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-image: url(img/fondo-radio-ok.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    backdrop-filter: blur(1.5px);
+}
+
+/* Encabezado */
+header {
+    
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        z-index: 1000; /* Asegura que el encabezado esté encima del resto del contenido */
+        background-color: rgba(0, 0, 0, 0.7);
+  
+
+}
+
+/* Navegación */
+.nav-vertical {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    align-items: center;
+}
+
+.container-nav {
+    width: 100%;
+}
+
+.navbar-toggler {
+    border: none;
+}
+
+header nav ul li a {
+    color: #F0F3F4 !important;
+    opacity: none;
+}
+
+nav ul li a:hover {
+    box-shadow: 5px 5px 0 rgba(255, 255, 255, 0.5);
+    border-radius: 20px;
+    transition: 0.3s;
+}
+
+.logo-container img {
+    height: 75px;
+}
+
+.logo-container img:hover {
+    transform: scale(1.1);
+}
+
+/* Cartel de la radio */
+.cartel-radio {
+    background-color: #575757!important;
+    opacity: 0.8;
+    color: #ffffff;
+}
+
+/* Título de la radio */
+.title-radio {
+    font-size: 4rem;
+}
+
+.logo-radio {
+    width: 50px;
+}
+
+#radioStatus {
+    font-size: 1rem;
+    color: #e85d04;
+}
+
+/* Controles de la radio */
+.radio-controls {
+    margin-top: 20px;
+    background-color: #FFA586;
+}
+
+.radio-controls button:hover {
+    box-shadow: 3px 3px 0 rgba(0, 0, 0, 0.5);
+}
+
+#playBtn:hover {
+    background-color: #1ed12d;
+}
+
+#pauseBtn:hover {
+    background-color: #575757;
+}
+
+#stopBtn:hover {
+    background-color: #bb2929;
+}
+
+/* Icono de WhatsApp flotante */
+@keyframes popup {
+    0% {
+        width: 0;
+        height: 0;
+    }
+    50% {
+        width: 8rem;
+        height: 8rem;
+    }
+    100% {
+        width: 5rem;
+        height: 5rem;
+    }
+}
+
+.wsp-btn a img {
+    display: flex;
+    height: 70px;
+    width: auto;
+    left: 95%;
+    top: 90%;
+    cursor: pointer;
+    z-index: 21;
+    animation: popup 0.3s ease-in-out;
+    transition: all .3s ease;
+}
+
+.wsp-btn a img:hover {
+    transform: scale(1.1);
+}
+
+/* Pie de página */
+.pie-pagina {
+    margin-top: 120px;
+    background-color: #395886;
+}
+
+.box1 .img-container a img {
+    width: 250px;
+    height: auto;
+}
+
+.box2 {
+    color: #F0F3F4;
+}
+
+.redes a {
+    text-decoration: none;
+    text-align: center;
+    transition: all .3s ease;
+    color: #F0F3F4;
+}
+
+.redes a:hover {
+    color: #1d1d1d;
+}
+
+#btn-v-inicio {
+    background-color: #1d1d1d;
+    color: #d8d8d8;
+    text-decoration: none;
+    border-radius: 10px;
+}
+
+#btn-v-inicio:hover {
+    background-color: #4181ac;
+}
+
+/* Media queries para el icono de WhatsApp */
+@media screen and (max-width: 750px) {
+    .wsp-btn a img {
+        left: 80%;
+        bottom: 70%;
+    }
+}
+
+@media screen and (min-width: 850px) {
+    .wsp-btn a img {
+        left: 90%;
+        bottom: 90%;
+    }
+}
+
+@media screen and (min-width: 1300px) {
+    .wsp-btn a img {
+        left: 93%;
+        top: 85%;
+    }
+}

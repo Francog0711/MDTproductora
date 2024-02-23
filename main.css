@@ -9,8 +9,7 @@ html{
       }
 
       header{
-        background-color: #395886;
-
+        background-color: rgb(0,0,0,0.7);
 }
 
 
@@ -28,8 +27,9 @@ html{
        .navbar-toggler {
         border: none;
       }
-      nav ul li a{
+      header nav ul li a{
         color: #F0F3F4!important;
+        opacity: none;
       }
       nav ul li a:hover{
         box-shadow: 5px 5px 0 rgba(255, 255, 255, 0.5) ;
@@ -45,6 +45,7 @@ html{
         transform: scale(1.1);
       }
 
+    
       /*CARTELES EN MEDIO DE LAS IMAGENES*/
       
       .cartel-inicio {
@@ -68,12 +69,7 @@ html{
       .carousel-inner{
         height: 70%;
       }
-      .h-contacto{
-        background-color: #1d1d1d;
-        font-size: 4rem;
-        color: #d8d8d8;
-      }
-
+      
    /*GRID*/
    .card {
     position: relative; 
@@ -122,63 +118,12 @@ html{
         width: 36px;
       }
       .logo-eter{
-        width: 64px;
+        width: 78px;
       }
       .logo-tv{
         width: 64px;
       }
-      .logo-radio{
-        width: 50px;
-      }
 
-
-
-      /*RADIO*/
-      
-      #radioStatus{
-        font-size: 1rem;
-        color: #e85d04;
-      }
-      .radio-controls {
-        margin-top: 20px;
-        background-color: #FFA586;
-    }
-    .radio-controls button:hover{
-      box-shadow: 3px 3px 0 rgb(0,0,0,0.5) ;
-    }
-
-    #playBtn:hover{
-      background-color: #1ed12d;
-    }
-    #pauseBtn:hover{
-      background-color: #575757;
-    }
-    #stopBtn:hover{
-      background-color: #bb2929;
-    }
-
-    /*formulario*/
-
-form{
-  background-color: #8aaee0;
-}
-.formulario__grupo-correcto .formulario__validacion-estado {
-	color: #1ed12d;
-	opacity: 1;
-}
-
-.formulario__grupo-incorrecto .formulario__label {
-	color: #bb2929;
-}
-
-.formulario__grupo-incorrecto .formulario__validacion-estado {
-	color: #bb2929;
-	opacity: 1;
-}
-
-.formulario__grupo-incorrecto .formulario__input {
-	border: 3px solid #bb2929;
-}
 
       /* ICONO DE WHATASPP FLOTANTE */
      
@@ -213,17 +158,17 @@ form{
      }
 
       /*TV*/
-
+      
+      .ver-mas{
+        font-size: 4rem;
+        margin-left: 50px;
+      }
       .box3 a{
         text-decoration: none;
         color: black;
       }
       .box3 a:hover{
         color: white;
-      }
-      .ver-mas{
-        background-color: #bb2929;
-        border-radius: 20px;
       }
       .social-links {
         margin-right: 20px;
