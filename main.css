@@ -230,11 +230,14 @@ html{
 
 
       .title-servicios{
+        margin-top: 15px;
         font-size: 4rem;
         color: #ff7401;
       }
       .seccion-servicios{
+        background-color: rgba(0, 0, 0, 0.5);
         color: #ff7401;
+        padding: 15px;
         margin: 60px;
       }
       .seccion-servicios p img{
