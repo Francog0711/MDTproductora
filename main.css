@@ -88,6 +88,11 @@ html{
   transform: scale(1.03);
   transition: 0.5s ease-out;
 }
+ .card-mdt-img-container {
+  position: relative;
+  overflow: hidden;
+  height: 210px;
+}
 .card-overlay {
   position: absolute;
   bottom: 0;
@@ -100,6 +105,18 @@ html{
   opacity: 0; 
   transition: opacity 0.3s ease; 
 }
+.card-mdt {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.5); 
+  color: #fff; 
+  padding: 20px;
+  box-sizing: border-box;
+  opacity: 1; 
+}
+
 
 .card-overlay h5,
 .card-overlay p {
@@ -209,6 +226,20 @@ html{
       }
 
 
+/*SERVICIOS*/
+
+
+      .title-servicios{
+        font-size: 4rem;
+        color: #ff7401;
+      }
+      .seccion-servicios{
+        color: #ff7401;
+        margin: 60px;
+      }
+      .seccion-servicios p img{
+        width: 30px;
+      }
 
       .red {
         background-color: #FF5852;
