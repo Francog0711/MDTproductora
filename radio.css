@@ -19,10 +19,8 @@ body {
 header {
     
         position: fixed;
-        top: 0;
-        left: 0;
         width: 100%;
-        z-index: 1000; /* Asegura que el encabezado esté encima del resto del contenido */
+        z-index: 1000;
         background-color: rgba(0, 0, 0, 0.7);
   
 
@@ -155,6 +153,9 @@ nav ul li a:hover {
 .box2 {
     color: #F0F3F4;
 }
+.siguenos{
+    color:#ff7401
+  }
 
 .redes a {
     text-decoration: none;
