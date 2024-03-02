@@ -19,7 +19,6 @@ html{
         margin: 0;
         align-items: center;
       } 
-    
       .container-nav {
        width: 100%;
       }
@@ -43,6 +42,16 @@ html{
       
       .logo-container img:hover{
         transform: scale(1.1);
+      }
+      .nav-noticias{
+        margin: 10px;
+        background-color: #358597!important;
+        color: #F0F3F4!important;
+        border-radius: 20px;
+      }
+      .nav-noticias:hover{
+        background-color: #1d1d1d!important;
+        transition: 0.5s ease-in-out;
       }
 
     
