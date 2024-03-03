@@ -43,16 +43,6 @@ html{
       .logo-container img:hover{
         transform: scale(1.1);
       }
-      .nav-noticias{
-        margin: 10px;
-        background-color: #358597!important;
-        color: #F0F3F4!important;
-        border-radius: 20px;
-      }
-      .nav-noticias:hover{
-        background-color: #1d1d1d!important;
-        transition: 0.5s ease-in-out;
-      }
 
     
       /*CARTELES EN MEDIO DE LAS IMAGENES*/
@@ -89,18 +79,23 @@ html{
    .card {
     position: relative; 
 }
+  .card-img-noticias{
+    position: relative;
+  overflow: hidden;
+}
    .card-img-container {
     position: relative;
     overflow: hidden;
 }
-.card:hover{
-  transform: scale(1.03);
-  transition: 0.5s ease-out;
-}
+
  .card-mdt-img-container {
   position: relative;
   overflow: hidden;
   height: 210px;
+}
+.card:hover{
+  transform: scale(1.03);
+  transition: 0.3s ease;
 }
 .card-overlay {
   position: absolute;
