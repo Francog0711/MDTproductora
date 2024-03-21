@@ -40,9 +40,6 @@ html{
         height: 75px;
       }
       
-      .logo-container img:hover{
-        transform: scale(1.1);
-      }
 
     
       /*CARTELES EN MEDIO DE LAS IMAGENES*/
@@ -93,6 +90,13 @@ html{
   overflow: hidden;
   height: 210px;
 }
+
+.card-mdt-radio-container {
+  position: relative;
+  overflow: hidden;
+}
+
+
 .card:hover{
   transform: scale(1.03);
   transition: 0.3s ease;
@@ -246,6 +250,10 @@ html{
       }
       .seccion-servicios p img{
         width: 30px;
+      }
+
+      .listen-radio{
+        color: #ff7401;
       }
 
       .red {

@@ -57,9 +57,6 @@ nav ul li a:hover {
     height: 75px;
 }
 
-.logo-container img:hover {
-    transform: scale(1.1);
-}
 
 /* Cartel de la radio */
 .cartel-radio {
