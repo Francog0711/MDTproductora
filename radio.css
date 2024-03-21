@@ -9,11 +9,11 @@ html {
 }
 
 body {
-    /* background-image: url(/img/fondo-radio-ok.jpg)!important;
+    background-image: url(/img/fondo-radio-ok.jpg)!important;
     background-size: cover !important;
     background-repeat: no-repeat !important;
-    backdrop-filter: blur(1.5px) !important; */
-    background-color: #1d1d1d !important;
+    backdrop-filter: blur(1.5px) !important;
+    /* background-color: #1d1d1d !important; */
 }
 
 /* Encabezado */
