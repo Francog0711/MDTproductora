@@ -6,10 +6,10 @@ html{
     margin:0;
 }
 body{
-        background-image: url(/img/contacto-1.jpg) !important;
-        background-size: cover !important;
-        background-repeat: no-repeat !important; 
-        backdrop-filter: blur(2px) !important;
+        background-image: url(/img/contacto-1.jpg) ;
+        background-size: cover ;
+        background-repeat: no-repeat ; 
+        backdrop-filter: blur(2px) ;
         /* background-color: #353f41!important; */
       }
 
